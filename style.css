@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+/****-------------header style--------------*/
+header{
+    float: right;
+    padding: 10px 20px;
+}
+header > a{
+    color:#222;
+    margin-right: 12px;
+}
+#coco{
+    background-color: #1a73e8 ;
+    padding: 9px;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+#coco:hover{
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%);
+    background-color: #4285f4;
+    text-decoration: none;
+}
+#coco > a{
+    color: #fff;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+}
+/*------------logo style---------------------*/
+.logo{
+    height: 150px;
+    padding-top: 40px;
+    display: flex;
+    align-items: flex-end;
+    clear: both;
+}
+img{
+    height: 92px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*---------------search box style--------*/
+.box{
+    height: 160px;
+    padding: 20px;
+    text-align: center;
+}
+#sbox{
+    width: 600px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;     
+    font-size: 16px;
+    text-indent: 30px;
+}
+#sbox:hover, #sbox:focus{
+    box-shadow: 3px 3px 3px rgba(0,0,0,.1);
+    border:2px solid #dadce0;
+    outline:none;
+}
+.sbutton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px;
+    height: 36px;
+}
+.sbutton:hover{
+    box-shadow: 3px 3px 3px rgba(0,0,0,.1);
+    border:2px solid #dadce0;
+}
+.sbutton a:hover{
+    text-decoration: none;
+}
+.sbutton:focus{
+    border:1px solid #4285f4;
+}
+/*---------------footer style-------------------*/
+footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    color:rgba(0,0,0,.54);
+}
+footer > div{
+    height: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+footer a{
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+
